@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_contact_details",
+  "info": {
+    "displayName": "Details"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title",
+      "required": true
+    },
+    "firstText": {
+      "type": "text",
+      "required": true
+    },
+    "secondText": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

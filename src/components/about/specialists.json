@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_about_specialists",
+  "info": {
+    "displayName": "Specialists",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title",
+      "required": true
+    },
+    "specialists": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.icon-card",
+      "max": 6,
+      "min": 4
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

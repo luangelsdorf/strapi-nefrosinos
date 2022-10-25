@@ -1,0 +1,81 @@
+{
+  "kind": "singleType",
+  "collectionName": "servicos",
+  "info": {
+    "singularName": "servico",
+    "pluralName": "servicos",
+    "displayName": "Serviços"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.banner",
+      "required": true
+    },
+    "highlighted": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.highlighted-services",
+      "required": true
+    },
+    "inTransit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.dialysis-in-transit",
+      "required": true
+    },
+    "peritonealDialysis": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.peritoneal-dialysis",
+      "required": true
+    },
+    "hemodiafiltration": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.hemodiafiltration",
+      "required": true
+    },
+    "hemodialysis": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.hemodialysis",
+      "required": true
+    },
+    "conservative": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.conservative-treatment",
+      "required": true
+    },
+    "transplant": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.transplant",
+      "required": true
+    },
+    "partners": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.partners",
+      "required": true
+    },
+    "structure": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.structure",
+      "required": true
+    },
+    "waterTreatment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.water-treatment",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_services_water_treatments",
+  "info": {
+    "displayName": "WaterTreatment"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "background": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

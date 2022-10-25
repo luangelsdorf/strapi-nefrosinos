@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_services_highlighted_services",
+  "info": {
+    "displayName": "HighlightedServices"
+  },
+  "options": {},
+  "attributes": {
+    "serviceCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.icon-card",
+      "required": true,
+      "max": 3,
+      "min": 3
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_nested_expert_cards",
+  "info": {
+    "displayName": "ExpertCard",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "photo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "speciality": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

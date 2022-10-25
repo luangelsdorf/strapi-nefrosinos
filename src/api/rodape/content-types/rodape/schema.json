@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "rodapes",
+  "info": {
+    "singularName": "rodape",
+    "pluralName": "rodapes",
+    "displayName": "Rodapé"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.contato",
+      "required": true
+    },
+    "certificates": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.certificates",
+      "required": true
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.footer",
+      "required": true
+    }
+  }
+}

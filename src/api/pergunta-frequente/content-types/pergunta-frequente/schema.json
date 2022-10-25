@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "perguntas_frequentes",
+  "info": {
+    "singularName": "pergunta-frequente",
+    "pluralName": "perguntas-frequentes",
+    "displayName": "Perguntas Frequentes"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title",
+      "required": true
+    },
+    "questions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.text-card",
+      "required": true,
+      "min": 2
+    }
+  }
+}

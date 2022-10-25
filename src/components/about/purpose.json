@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_about_purposes",
+  "info": {
+    "displayName": "Purpose"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title",
+      "required": true
+    },
+    "purposeCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.icon-card",
+      "required": true,
+      "max": 3,
+      "min": 3
+    }
+  }
+}

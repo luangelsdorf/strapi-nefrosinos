@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_services_hemodiafiltrations",
+  "info": {
+    "displayName": "Hemodiafiltration"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "note": {
+      "type": "text",
+      "required": true
+    },
+    "introText": {
+      "type": "string",
+      "required": true
+    },
+    "benefits": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.icon-card-short",
+      "required": true,
+      "max": 3,
+      "min": 3
+    }
+  }
+}

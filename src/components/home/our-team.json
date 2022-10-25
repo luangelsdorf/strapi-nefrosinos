@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_home_our_teams",
+  "info": {
+    "displayName": "OurTeam",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title",
+      "required": true
+    }
+  }
+}

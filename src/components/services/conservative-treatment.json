@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_services_conservative_treatments",
+  "info": {
+    "displayName": "ConservativeTreatment"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

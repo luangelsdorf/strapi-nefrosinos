@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_layout_certificates",
+  "info": {
+    "displayName": "Certificates"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "certificates": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.image-collection",
+      "required": true,
+      "max": 4,
+      "min": 4
+    }
+  }
+}

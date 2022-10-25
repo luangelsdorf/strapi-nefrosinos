@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "parceiros",
+  "info": {
+    "singularName": "parceiro",
+    "pluralName": "parceiros",
+    "displayName": "Parceiros",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "partners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.partner",
+      "required": true
+    }
+  }
+}

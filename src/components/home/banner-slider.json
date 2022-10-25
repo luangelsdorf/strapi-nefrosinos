@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_home_banner_sliders",
+  "info": {
+    "displayName": "BannerSlider",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "button1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link",
+      "required": true
+    },
+    "button2": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.link",
+      "required": false
+    },
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "text": {
+      "type": "text"
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

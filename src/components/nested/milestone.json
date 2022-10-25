@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_nested_milestones",
+  "info": {
+    "displayName": "Milestone"
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

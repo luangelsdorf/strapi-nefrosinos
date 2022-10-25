@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_services_partners",
+  "info": {
+    "displayName": "Partners"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title",
+      "required": true
+    },
+    "finalText": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nested.text-card",
+      "required": true
+    }
+  }
+}

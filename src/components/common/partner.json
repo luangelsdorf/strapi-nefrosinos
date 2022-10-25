@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_common_partners",
+  "info": {
+    "displayName": "Partner",
+    "icon": "ankh"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

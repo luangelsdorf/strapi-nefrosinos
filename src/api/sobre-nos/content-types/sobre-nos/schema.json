@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "sobre_noss",
+  "info": {
+    "singularName": "sobre-nos",
+    "pluralName": "sobre-noss",
+    "displayName": "Sobre Nós",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "aboutUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.about-us",
+      "required": true
+    },
+    "purpose": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.purpose",
+      "required": true
+    },
+    "timeline": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.timeline",
+      "required": true
+    },
+    "aboutOurTeam": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.about-our-team",
+      "required": true
+    },
+    "ourTeam": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.specialists",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "contatos",
+  "info": {
+    "singularName": "contato",
+    "pluralName": "contatos",
+    "displayName": "Contato"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "location": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.location",
+      "required": true
+    },
+    "details": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.details",
+      "required": true
+    }
+  }
+}

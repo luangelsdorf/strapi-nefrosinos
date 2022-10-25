@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_about_our_teams",
+  "info": {
+    "displayName": "AboutOurTeam",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "specialistCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.icon-card",
+      "required": true,
+      "max": 5,
+      "min": 5
+    }
+  }
+}

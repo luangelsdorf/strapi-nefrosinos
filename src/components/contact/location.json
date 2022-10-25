@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_contact_locations",
+  "info": {
+    "displayName": "Location",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nested.text-card",
+      "required": true
+    },
+    "secondText": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "equipes",
+  "info": {
+    "singularName": "equipe",
+    "pluralName": "equipes",
+    "displayName": "Equipe",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "team": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.expert-card",
+      "min": 5,
+      "required": true
+    }
+  }
+}

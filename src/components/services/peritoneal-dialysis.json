@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_services_peritoneal_dialyses",
+  "info": {
+    "displayName": "PeritonealDialysis",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "highlights": {
+      "displayName": "TextCard",
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.text-card",
+      "required": true
+    },
+    "warning": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nested.icon-card-short",
+      "required": true
+    }
+  }
+}

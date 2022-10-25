@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_services_structures",
+  "info": {
+    "displayName": "Structure"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "gallery": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.image-collection",
+      "required": true,
+      "max": 6,
+      "min": 6
+    }
+  }
+}

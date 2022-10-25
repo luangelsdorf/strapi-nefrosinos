@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_services",
+  "info": {
+    "displayName": "Service",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
