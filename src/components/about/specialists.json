@@ -16,7 +16,7 @@
       "type": "component",
       "repeatable": true,
       "component": "nested.icon-card",
-      "max": 6,
+      "max": 8,
       "min": 4
     },
     "image": {

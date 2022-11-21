@@ -1,16 +1,16 @@
 {
   "collectionName": "components_services_highlighted_services",
   "info": {
-    "displayName": "HighlightedServices"
+    "displayName": "HighlightedServices",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "serviceCards": {
       "type": "component",
       "repeatable": true,
-      "component": "nested.icon-card",
+      "component": "nested.icon-card-title",
       "required": true,
-      "max": 3,
       "min": 3
     }
   }
