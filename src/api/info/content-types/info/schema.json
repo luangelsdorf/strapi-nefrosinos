@@ -35,6 +35,10 @@
     "instagram": {
       "type": "string",
       "required": true
+    },
+    "serviceHours": {
+      "type": "text",
+      "required": true
     }
   }
 }
