@@ -11,8 +11,8 @@
       "repeatable": true,
       "component": "nested.icon-card",
       "required": true,
-      "max": 5,
-      "min": 5
+      "max": 7,
+      "min": 7
     }
   }
 }

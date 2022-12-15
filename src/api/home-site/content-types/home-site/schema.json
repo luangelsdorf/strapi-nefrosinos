@@ -53,6 +53,12 @@
       "repeatable": false,
       "component": "home.about-us",
       "required": true
+    },
+    "referenceTable": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.reference",
+      "required": true
     }
   }
 }

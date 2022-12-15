@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_references",
+  "info": {
+    "displayName": "Reference",
+    "icon": "table"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "referenceValues": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.text-card",
+      "max": 9,
+      "min": 6
+    }
+  }
+}
