@@ -4,7 +4,8 @@
   "info": {
     "singularName": "servico",
     "pluralName": "servicos",
-    "displayName": "Serviços"
+    "displayName": "Serviços",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -57,24 +58,6 @@
       "type": "component",
       "repeatable": false,
       "component": "services.transplant",
-      "required": true
-    },
-    "partners": {
-      "type": "component",
-      "repeatable": false,
-      "component": "services.partners",
-      "required": true
-    },
-    "structure": {
-      "type": "component",
-      "repeatable": false,
-      "component": "services.structure",
-      "required": true
-    },
-    "waterTreatment": {
-      "type": "component",
-      "repeatable": false,
-      "component": "services.water-treatment",
       "required": true
     }
   }

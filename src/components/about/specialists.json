@@ -12,20 +12,13 @@
       "component": "common.title",
       "required": true
     },
-    "specialists": {
+    "specialistCards": {
       "type": "component",
       "repeatable": true,
-      "component": "nested.icon-card",
-      "max": 8,
-      "min": 4
-    },
-    "image": {
-      "type": "media",
-      "multiple": false,
+      "component": "nested.text-card",
       "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+      "max": 8,
+      "min": 8
     }
   }
 }

@@ -29,18 +29,6 @@
       "repeatable": false,
       "component": "about.timeline",
       "required": true
-    },
-    "aboutOurTeam": {
-      "type": "component",
-      "repeatable": false,
-      "component": "about.about-our-team",
-      "required": true
-    },
-    "ourTeam": {
-      "type": "component",
-      "repeatable": false,
-      "component": "about.specialists",
-      "required": true
     }
   }
 }

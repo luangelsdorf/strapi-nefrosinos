@@ -18,6 +18,26 @@
       "component": "nested.expert-card",
       "min": 5,
       "required": true
+    },
+    "aboutOurTeam": {
+      "type": "component",
+      "repeatable": false,
+      "component": "about.about-our-team",
+      "required": true
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title",
+      "required": true
+    },
+    "infoCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.text-card",
+      "required": true,
+      "max": 8,
+      "min": 8
     }
   }
 }

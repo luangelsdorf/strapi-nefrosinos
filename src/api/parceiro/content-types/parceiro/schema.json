@@ -4,7 +4,7 @@
   "info": {
     "singularName": "parceiro",
     "pluralName": "parceiros",
-    "displayName": "Parceiros",
+    "displayName": "Convênios",
     "description": ""
   },
   "options": {
@@ -16,6 +16,18 @@
       "type": "component",
       "repeatable": true,
       "component": "common.partner",
+      "required": true
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title",
+      "required": true
+    },
+    "finalText": {
+      "type": "component",
+      "repeatable": false,
+      "component": "nested.text-card",
       "required": true
     }
   }

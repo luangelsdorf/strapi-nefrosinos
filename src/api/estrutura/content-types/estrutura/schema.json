@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "estruturas",
+  "info": {
+    "singularName": "estrutura",
+    "pluralName": "estruturas",
+    "displayName": "Estrutura"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "structure": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.structure",
+      "required": true
+    },
+    "waterTreatment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.water-treatment",
+      "required": true
+    }
+  }
+}
