@@ -1,3 +1,6 @@
+import horizontal from './extensions/header-logo.svg';
+import logo from './extensions/logo.svg';
+
 const config = {
   locales: [
     // 'ar',
@@ -27,6 +30,15 @@ const config = {
     // 'zh-Hans',
     // 'zh',
   ],
+  auth: {
+    logo: horizontal
+  },
+  menu: {
+    logo: logo
+  },
+  head: {
+    favicon: logo
+  }
 };
 
 const bootstrap = (app) => {
