@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_common_collaborators",
+  "info": {
+    "displayName": "Collaborator"
+  },
+  "options": {},
+  "attributes": {
+    "photo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "role": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

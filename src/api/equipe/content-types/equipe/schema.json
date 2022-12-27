@@ -38,6 +38,13 @@
       "required": true,
       "max": 10,
       "min": 8
+    },
+    "collaborators": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.collaborator",
+      "required": true,
+      "min": 2
     }
   }
 }
