@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "guias_rapidos",
+  "info": {
+    "singularName": "guia-rapido",
+    "pluralName": "guias-rapidos",
+    "displayName": "Guias Rápidos"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "guides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.text-card",
+      "required": true,
+      "min": 1
+    }
+  }
+}
