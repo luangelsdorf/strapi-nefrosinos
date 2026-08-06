@@ -4,6 +4,10 @@ on:
   push:
     branches: [ "main" ]
 
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: luangelsdorf/strapi-nefrosinos
+
 jobs:
   build-and-push-image:
     runs-on: ubuntu-latest
