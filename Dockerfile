@@ -14,6 +14,8 @@ COPY . .
 
 # Configura o ambiente de produção e realiza o build do painel admin
 ENV NODE_ENV=production
+ARG STRAPI_URL
+ENV STRAPI_URL=$STRAPI_URL
 RUN npm run build
 
 EXPOSE 1337
